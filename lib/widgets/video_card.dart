@@ -8,11 +8,11 @@ class VideoCard extends StatelessWidget {
   final bool isActive;
 
   const VideoCard({
-    Key? key,
+    super.key,
     required this.video,
     required this.videoUrl,
     required this.isActive,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

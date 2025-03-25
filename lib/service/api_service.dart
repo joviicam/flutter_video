@@ -5,7 +5,7 @@ import '../models/video.dart';
 class ApiService {
   // Cambia esta URL por la dirección de tu servidor Spring Boot
   final String baseUrl =
-      'http://localhost:8080/api'; // 10.0.2.2 es localhost desde el emulador de Android
+      'http://192.168.52.50:8080/api'; // 10.0.2.2 es localhost desde el emulador de Android
   // Para iOS simulador, usa: 'http://localhost:8080/api'
   // Para dispositivo físico, usa la IP de tu computadora: 'http://192.168.1.X:8080/api'
 

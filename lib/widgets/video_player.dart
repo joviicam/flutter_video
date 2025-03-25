@@ -6,8 +6,11 @@ class VideoPlayer extends StatefulWidget {
   final String videoUrl;
   final bool isActive;
 
-  const VideoPlayer({Key? key, required this.videoUrl, required this.isActive})
-    : super(key: key);
+  const VideoPlayer({
+    super.key,
+    required this.videoUrl,
+    required this.isActive,
+  });
 
   @override
   _VideoPlayerState createState() => _VideoPlayerState();

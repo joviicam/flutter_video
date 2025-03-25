@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:nombre_de_tu_app/config/video_provider.dart';
 import 'package:nombre_de_tu_app/demand/demand_screen.dart';
 import 'package:nombre_de_tu_app/home/home_screen.dart';
-import 'package:nombre_de_tu_app/navigation/navigation.dart';
-import 'package:nombre_de_tu_app/news/news_screen.dart';
-import 'package:nombre_de_tu_app/tips/tips_screen.dart';
+import 'package:nombre_de_tu_app/modules/navigation/navigation.dart';
+import 'package:nombre_de_tu_app/modules/news/news_screen.dart';
+import 'package:nombre_de_tu_app/modules/tips/tips_screen.dart';
 import 'package:nombre_de_tu_app/widgets/splash_screen.dart';
 import 'package:provider/provider.dart';
 
